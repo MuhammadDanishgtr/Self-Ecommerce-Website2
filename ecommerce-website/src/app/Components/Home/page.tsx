@@ -10,9 +10,9 @@ export default function Home() {
           <Image src="/newlogo.jpg" alt="Danish Garment Logo" width={50} height={50} />
         </div>
         {/* Responsive Navbar: Stack links on smaller screens */}
-        <ul className="hidden sm:flex space-x-6">
+        <ul className=" md:flex space-x-6">
           <li>
-            <a href="#home" className="hover:text-yellow-500">Home</a>
+            <a href="#home" className="hover:text-yellow-500 pl-6">Home</a>
           </li>
           <li>
             <a href="#about" className="hover:text-yellow-500">About</a>
@@ -27,10 +27,10 @@ export default function Home() {
       </nav>
 
       {/* Hero Section with Responsive Text */}
-      <section id="home" className="bg-beige-50 text-gray-900 text-center py-24">
+      {/* <section id="home" className="bg-beige-50 text-gray-900 text-center py-24">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Welcome to Danish Garment</h1>
         <p className="mt-4 text-lg md:text-xl">Discover premium clothing with style.</p>
-      </section>
+      </section> */}
     </>
   );
 }

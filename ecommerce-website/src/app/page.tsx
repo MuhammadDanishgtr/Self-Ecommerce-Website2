@@ -1,10 +1,15 @@
-import Home from "./Components/Home/page";
+
+
+
+import Hero from './Components/Hero/page'
 
 import React from 'react'
 
 function Homepage() {
   return (
-    <div><Home/></div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 
